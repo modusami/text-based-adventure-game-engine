@@ -1,0 +1,6 @@
+This file represents things I need to update or fix (keep note of)
+
+# TODO implement financial system (money)
+- every user starts with 0 coins
+- user can earn coins by
+

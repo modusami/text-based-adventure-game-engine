@@ -1,0 +1,210 @@
+{
+  "world": "CodeAnime",
+  "description": "A world where computer programming and anime collide!",
+  "rooms": [
+    {
+      "id": "start",
+      "name": "Main Menu",
+      "description": "You find yourself in a vibrant hub, surrounded by portals leading to different programming languages and anime universes.",
+      "exits": [
+        {"direction": "north", "room": "python_dojo"},
+        {"direction": "east", "room": "javascript_academy"},
+        {"direction": "south", "room": "java_temple"},
+        {"direction": "west", "room": "cpp_arena"}
+      ]
+    },
+    {
+      "id": "python_dojo",
+      "name": "Python Dojo",
+      "description": "You enter a serene dojo where Python masters hone their skills. The walls are adorned with code snippets and anime posters.",
+      "exits": [
+        {"direction": "south", "room": "start"},
+        {"direction": "east", "room": "anime_forest"}
+      ],
+      "items": [
+        {
+          "id": "python_scroll",
+          "name": "Python Scroll",
+          "description": "A mysterious scroll containing ancient Python wisdom."
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "description": "A snake that comes with cool poison powers"
+        }
+      ],
+      "characters": [
+        {
+          "id": "sensei",
+          "name": "Sensei",
+          "description": "A wise old master who knows the secrets of Python.",
+          "dialogue": "Welcome, young programmer. Are you ready to learn the ways of Python?"
+        }
+      ]
+    },
+    {
+      "id": "javascript_academy",
+      "name": "JavaScript Academy",
+      "description": "You step into a high-tech academy buzzing with JavaScript enthusiasm. Interactive displays and holographic projections fill the room.",
+      "exits": [
+        {"direction": "west", "room": "start"},
+        {"direction": "north", "room": "anime_city"}
+      ],
+      "items": [
+        {
+          "id": "javascript_wand",
+          "name": "JavaScript Wand",
+          "description": "A magical wand that can cast JavaScript spells."
+        }
+      ],
+      "characters": [
+        {
+          "id": "professor",
+          "name": "Professor",
+          "description": "An eccentric professor who loves JavaScript more than anything.",
+          "dialogue": "Ah, a new student! Welcome to the wonderful world of JavaScript!"
+        }
+      ]
+    },
+    {
+      "id": "java_temple",
+      "name": "Java Temple",
+      "description": "You approach an ancient temple dedicated to Java. The air is filled with the hum of code compilation.",
+      "exits": [
+        {"direction": "north", "room": "start"},
+        {"direction": "west", "room": "anime_mountains"}
+      ],
+      "items": [
+        {
+          "id": "java_tome",
+          "name": "Java Tome",
+          "description": "An ancient tome filled with Java knowledge and secrets."
+        }
+      ],
+      "characters": [
+        {
+          "id": "oracle",
+          "name": "Oracle",
+          "description": "A mysterious oracle who can foresee the future of Java.",
+          "dialogue": "Welcome, seeker of Java knowledge. What brings you to this sacred temple?"
+        }
+      ]
+    },
+    {
+      "id": "cpp_arena",
+      "name": "C++ Arena",
+      "description": "You enter a grand arena where C++ warriors compete in coding battles. The atmosphere is electric with the clash of intellects.",
+      "exits": [
+        {"direction": "east", "room": "start"},
+        {"direction": "south", "room": "anime_island"}
+      ],
+      "items": [
+        {
+          "id": "cpp_sword",
+          "name": "C++ Sword",
+          "description": "A sharp sword forged with the power of C++."
+        }
+      ],
+      "characters": [
+        {
+          "id": "champion",
+          "name": "Champion",
+          "description": "The reigning champion of the C++ Arena, undefeated in coding battles.",
+          "dialogue": "Another challenger approaches! Let's see if you have what it takes to code in C++!"
+        }
+      ]
+    },
+    {
+      "id": "anime_forest",
+      "name": "Anime Forest",
+      "description": "You venture into a enchanted forest straight out of an anime. Colorful creatures and magical elements surround you.",
+      "exits": [
+        {"direction": "west", "room": "python_dojo"}
+      ],
+      "items": [
+        {
+          "id": "anime_crystal",
+          "name": "Anime Crystal",
+          "description": "A shimmering crystal that contains the essence of anime powers."
+        }
+      ],
+      "characters": [
+        {
+          "id": "fairy",
+          "name": "Code Fairy",
+          "description": "A mischievous fairy who loves to play with code and cause bugs.",
+          "dialogue": "Hehe, welcome to the Anime Forest! Ready for some coding adventures?"
+        }
+      ]
+    },
+    {
+      "id": "anime_city",
+      "name": "Anime City",
+      "description": "You find yourself in a vibrant city filled with anime characters and high-tech gadgets. The streets are buzzing with energy.",
+      "exits": [
+        {"direction": "south", "room": "javascript_academy"}
+      ],
+      "items": [
+        {
+          "id": "anime_gadget",
+          "name": "Anime Gadget",
+          "description": "A futuristic gadget with incredible anime-inspired abilities."
+        }
+      ],
+      "characters": [
+        {
+          "id": "hacker",
+          "name": "Anime Hacker",
+          "description": "A skilled hacker who can infiltrate any system with their anime-themed code.",
+          "dialogue": "Welcome to Anime City, where code and anime merge into one! Need any hacking help?"
+        }
+      ]
+    },
+    {
+      "id": "anime_mountains",
+      "name": "Anime Mountains",
+      "description": "You stand before a majestic range of mountains, reminiscent of iconic anime landscapes. The peaks seem to touch the sky.",
+      "exits": [
+        {"direction": "east", "room": "java_temple"}
+      ],
+      "items": [
+        {
+          "id": "anime_artifact",
+          "name": "Anime Artifact",
+          "description": "An ancient artifact imbued with the power of legendary anime heroes."
+        }
+      ],
+      "characters": [
+        {
+          "id": "sage",
+          "name": "Anime Sage",
+          "description": "A wise sage who has mastered the art of combining anime and programming.",
+          "dialogue": "Ah, a traveler seeking knowledge. What programming wisdom do you seek in these anime mountains?"
+        }
+      ]
+    },
+    {
+      "id": "anime_island",
+      "name": "Anime Island",
+      "description": "You arrive on a tropical island filled with anime-inspired creatures and mysterious ruins. The island radiates a strange energy.",
+      "exits": [
+        {"direction": "north", "room": "cpp_arena"}
+      ],
+      "items": [
+        {
+          "id": "anime_relic",
+          "name": "Anime Relic",
+          "description": "A powerful relic that grants the ability to summon anime characters into the real world."
+        }
+      ],
+      "characters": [
+        {
+          "id": "explorer",
+          "name": "Anime Explorer",
+          "description": "An adventurous explorer who has discovered the secrets of Anime Island.",
+          "dialogue": "Welcome to Anime Island! Ready to explore the mysteries and find anime treasures?"
+        }
+      ]
+    }
+  ]
+}
